@@ -1,0 +1,5 @@
+CORREÇÃO IMAGEM KALU
+
+Envie somente o arquivo kalu.js para a raiz do repositório GitHub Grabrel/Teca-TJSP, substituindo o kalu.js existente.
+A imagem está embutida diretamente no JavaScript (data URI), então não depende mais de assets/kalu.webp.
+Depois do deploy, faça Ctrl+Shift+R.
