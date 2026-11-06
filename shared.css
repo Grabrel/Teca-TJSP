@@ -1,0 +1,13 @@
+
+:root{--teca-accent:#9ee3d2}body{scroll-behavior:smooth}
+.teca-global{position:fixed;left:14px;bottom:14px;display:flex;gap:7px;z-index:120;align-items:center;flex-wrap:wrap;max-width:calc(100vw - 28px)}
+.teca-global a,.teca-global button{color:#eafff8!important;background:#102a37!important;border:1px solid #6c9b9b!important;text-decoration:none!important;border-radius:12px!important;padding:10px 13px!important;box-shadow:0 8px 28px #0005;font:650 13px system-ui,sans-serif!important;cursor:pointer!important;min-height:42px}
+.teca-global button.teca-question{font-size:19px!important;min-width:45px}
+.teca-overlay{display:none;position:fixed;inset:0;z-index:900;background:#04131ccc;padding:14px;place-items:center;overflow-y:auto}
+.teca-overlay.open{display:grid}
+.teca-modal{position:relative;background:#102836;color:#edf7f5;border:1px solid #547b84;border-radius:20px;max-width:620px;width:100%;max-height:90vh;overflow-y:auto;padding:clamp(18px,3vw,30px);box-shadow:0 30px 100px #0008;font:16px/1.65 system-ui,sans-serif}
+.teca-modal h2,.teca-modal h3{color:#adf1df!important;margin:0 0 10px}.teca-modal p{margin:10px 0;color:#d7e8ed}.teca-modal ul{padding-left:22px}.teca-modal li{margin:7px 0}.teca-modal button{border-radius:10px;padding:9px 13px;border:1px solid #65858b;background:#214151;color:white;font-weight:bold;cursor:pointer}.teca-modal .close{float:right}
+.teca-lessonlink{display:inline-flex;align-items:center;margin-top:12px;border-radius:9px;background:#e2f5ef;color:#103c35!important;padding:9px 12px;text-decoration:none;font-weight:700}
+.teca-mini-banner{font:14px/1.5 system-ui,sans-serif;border-radius:12px;background:#163748;color:#e8f6f5;padding:13px 16px;margin:14px 0;border:1px solid #55777b}
+body{padding-bottom:64px}
+@media(max-width:550px){.teca-global{left:8px;bottom:8px;gap:5px}.teca-global a,.teca-global button{padding:8px 10px!important;font-size:12px!important}}
